@@ -1,0 +1,62 @@
+{
+  "menu": {
+    "mainMenu": {
+      "day": {
+        "goodNight": "Доброй ночи.",
+        "goodMorning": "Доброе утро.",
+        "goodAfternoon": "Добрый день.",
+        "goodEvening": "Добрый вечер."
+      },
+      "welcomeMessage": "Добро пожаловать, {clientName}!",
+      "options": {
+        "1": {
+          "name": "Баланс"
+        },
+        "2": {
+          "name": "Интернет трафик"
+        },
+        "3": {
+          "name": "Специальные предложения",
+          "options": {
+            "1": {
+              "name": "Безлимитный интернет"
+            },
+            "2": {
+              "name": "Скидка 50%"
+            }
+          }
+        }
+      }
+    },
+    "balance": {
+      "threshold": 100,
+      "conditions": {
+        "lessThan": "У Вас на счету меньше 100 тенге. Рекомендуем пополнить баланс.",
+        "default": "Ваш баланс: {balance}"
+      }
+    },
+    "internetTraffic": {
+      "message": "Ваш интернет трафик: {internetTraffic}"
+    },
+    "specialOffers": {
+      "unlimitedInternet": "Успейте подключить до 1 июня и получите безлимитный интернет.",
+      "discount50": "Получите скидку 50% на Абонентскую плату на 3 месяца."
+    }
+  },
+  "controls": {
+    "mainMenu": {
+      "*": "Возврат в главное меню."
+    },
+    "previousMenu": {
+      "9": "Возврат в предыдущее меню."
+    },
+    "repeatMessage": {
+      "#": "Повтор сообщения."
+    }
+  },
+  "client": {
+    "name": "Dana",
+    "balance": 300,
+    "internetTraffic": 1335885824
+  }
+}
